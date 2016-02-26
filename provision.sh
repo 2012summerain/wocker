@@ -26,7 +26,7 @@ echo "export PS1=\"${PROMPT}\"" >> $PROFILE
 if [[ ! -d $BIN ]]; then
   mkdir $BIN
 fi
-wget -q -O ${BIN}/wocker https://raw.githubusercontent.com/wckr/wocker-cli/master/wocker
+wget -q -O ${BIN}/wocker https://raw.githubusercontent.com/2012summerain/wocker-cli/master/wocker
 chmod +x ${BIN}/wocker
 
 #
